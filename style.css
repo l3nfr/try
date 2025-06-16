@@ -89,7 +89,7 @@
   justify-content: space-between;
   background-color: rgb(11, 99, 11);
   width: 250px;
-  height: calc(100vh - 75px);
+  height: calc(100vh - 77px);
   box-sizing: border-box;
   padding: 10px 0;
 }
@@ -256,7 +256,7 @@
 }
 
 .transtext {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
 }
 
@@ -276,7 +276,7 @@
 }
 
 .report-text {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: -50px;
 }
 
@@ -286,9 +286,9 @@
 }
 
 .middle-divider {
-    margin-left: -222px;
-    margin-top: -47px;
-    width: 270px;
+    margin-left: -203px;
+    margin-top: -43px;
+    width: 240px;
 }
 
 .middle-2 {
@@ -331,7 +331,7 @@
     background-color: rgb(255, 255, 255);
     margin: 20px;
     margin-top: 35px;
-    height: 65vh;
+    height: calc(100vh - 34vh);
     border-radius: 8px;
 }
 
@@ -376,4 +376,108 @@
     background-color: white;
     border: 2px solid lightgray;
     border-radius: 4px;
+}
+
+.middle-lowest {
+    display: flex;
+}
+
+.lowest-text {
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 600;
+    opacity: 50%;
+}
+
+.lowest-firstbutton {
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 15px;
+    background-color: rgba(233, 237, 237, 0.381);
+    border: 2px solid rgb(211, 209, 209);
+    border-radius: 5px;
+    font-weight: 600;
+    opacity: 70%;
+}
+
+.numberss {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    align-items: center;
+}
+
+._1 {
+    margin-right: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background-color: rgba(51, 242, 153, 0.723);
+    border: 0px;
+    font-weight: bold;
+}
+
+._2 {
+    margin-right: 20px;
+    opacity: 50%;
+    font-weight: 600;
+}
+
+._3 {
+    margin-right: 20px;
+    opacity: 50%;
+    font-weight: 600;
+}
+
+._4 {
+    margin-right: 20px;
+    opacity: 50%;
+    font-weight: 600;
+}
+
+._5 {
+    margin-right: 20px;
+    opacity: 50%;
+    font-weight: 600;
+}
+
+._6 {
+    margin-right: 20px;
+    opacity: 50%;
+    font-weight: 600;
+}
+
+._7 {
+    opacity: 50%;
+    font-weight: 600;
+}
+
+.lowest-lastbutton {
+    display: flex;
+    margin-right: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 15px;
+    background-color: rgba(233, 237, 237, 0.381);
+    border: 2px solid rgb(11, 99, 11);
+    border-radius: 5px;
+    font-weight: 600;
+    opacity: 70%;
+}
+
+.lowest-right {
+    display: flex;
+    margin-left: auto;
+    margin-top: -8px;
 }
